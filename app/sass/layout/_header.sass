@@ -1,0 +1,123 @@
+.main-head
+  position: relative
+  background-size: cover
+  background-position: center center
+  background-repeat: no-repeat
+  color: #fff
+  min-height: 100vh
+  .container
+    position: relative
+    z-index: 2
+    min-height: 100vh
+  .toggle-mnu
+    position: relative
+    top: 35px
+    left: 140px
+  .mobile-mnu
+    margin-top: 50px
+
+.overlay
+  position: absolute
+  left: 0
+  right: 0
+  top: 0
+  bottom: 0
+  z-index: 1
+  background-color: #000
+  opacity: .6
+
+.head-logo
+  position: absolute
+  top: 10px
+  z-index: 2
+  img
+    width: 150px
+
+.head-mnu
+  position: relative
+  line-height: 1
+  left: -30px
+
+
+.mnu-line
+  padding-top: 30px
+  padding-bottom: 30px
+
+.mnu-line-info
+  +mt(.8s)
+  float: right
+  display: inline-block
+  text-transform: uppercase
+  .user-icon
+    fill: #fff
+    display: inline-block
+    margin-right: 5px
+    +mt(.4s)
+    svg
+      width: 16px
+      height: 16px
+  .telegram
+    position: relative
+    top: -5px
+    margin-right: 10px
+  .cab-link
+    +mt(.4s)
+    &:hover
+      color: $accent-blue
+      .user-icon
+        fill: $accent-blue
+
+  .info-bottom
+    font-size: 22px
+    margin-top: 5px
+    .phone-icon
+      position: relative
+      left: 5px
+      fill: #fff
+      margin-right: 20px
+      svg
+        +mt(.4s)
+        width: 26px
+        top: 5px
+        position: relative
+    .phone
+      cursor: default
+      +mt(.4s)
+      //&:hover
+        .phone-icon
+          fill: $accent-blue
+        color: $accent-blue
+
+.welcome-section-mover
+  margin-top: 15px!important
+
+.welcome-section
+  line-height: 1
+  margin-top: 80px
+  +mt(.5s)
+  .fz40
+    font-size: 40px
+    text-transform: uppercase
+  .fz29
+    font-size: 29px
+    span
+      font-size: 67px
+    sup
+      font-size: 29px
+      position: relative
+      top: -30px
+  .fz24
+    font-size: 24px
+    margin-bottom: 50px
+  .accent
+    color: $accent-orange
+    font-size: 24px
+    margin-bottom: 50px
+  .btn-orange
+    margin-top: 155px
+
+
+.notification
+  position: absolute
+  font-size: 14px
+  bottom: 10px
