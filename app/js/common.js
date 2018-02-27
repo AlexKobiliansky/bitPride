@@ -8,5 +8,9 @@ $(function() {
     });
 
 
+    $(".adv-icon").equalHeights();
+    $(".adv-desc").equalHeights();
+
+
 
 });
