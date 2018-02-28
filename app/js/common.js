@@ -11,10 +11,13 @@ $(function() {
     $(".adv-icon").equalHeights();
     $(".adv-desc").equalHeights();
     $(".alg-icon").equalHeights();
+    $(".ref-icon").equalHeights();
 
     function windowSize(){
-        if ($(window).width() <= '769'){
+        if ($(window).width() >= '768'){
             $(".alg-desc").equalHeights();
+            $(".ref-desc").equalHeights();
+
         }
     }
 
