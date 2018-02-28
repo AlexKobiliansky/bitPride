@@ -118,6 +118,11 @@ a, a:active, a:focus, a:hover
   text-align: center
   background-color: $accent-blue
   border: 1px solid #e7e7e7
+  +mt(.4s)
+  box-shadow: 3px 3px 3px transparent
+  &:hover
+    background-color: darken($accent-blue, 10%)
+    box-shadow: 3px 3px 3px darken(#e7e7e7, 20%)
 
 .form-btn
   width: 100%
