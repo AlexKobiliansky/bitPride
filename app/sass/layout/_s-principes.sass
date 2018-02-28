@@ -1,0 +1,38 @@
+.s-principes
+  position: relative
+  background: url("../img/bg-principes.jpg") no-repeat center center
+  background-size: cover
+  color: #fff
+  .overlay
+    opacity: .8
+  .container
+    position: relative
+    z-index: 2
+  .section-title
+    font-size: 28px
+    &:after
+      display: none
+  .col-md-7
+    .section-title
+      color: $accent-orange
+      text-align: left
+      padding-left: 8%
+  .col-md-5
+    .section-title
+      color: #fff
+  ul
+    li
+      padding-left: 40px
+      position: relative
+      margin-bottom: 35px
+      font-size: 22px
+      line-height: 1.2
+      &:before
+        content: ''
+        width: 32px
+        height: 32px
+        border-radius: 50%
+        background: url("../img/principes-list-marker.png") no-repeat center center
+        background-size: cover
+        position: absolute
+        left: -20px

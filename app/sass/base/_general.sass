@@ -49,6 +49,9 @@ body
   max-width: 100%
   height: auto
 
+input, button
+  outline: none
+
 a, a:active, a:focus, a:hover
   color: inherit
   text-decoration: none
@@ -109,6 +112,17 @@ a, a:active, a:focus, a:hover
   &:hover
     background-color: $accent-orange
 
+.btn-blue
+  display: inline-block
+  padding: 20px
+  text-align: center
+  background-color: $accent-blue
+  border: 1px solid #e7e7e7
+
+.form-btn
+  width: 100%
+
+
 section
   padding: 50px 0
 
@@ -138,6 +152,34 @@ section
 
 .s-grey
   background-color: $bg-grey
+
+
+
+//forms
+.contact-form
+  background-color: #fff
+  padding: 20px 25px
+  .form-title
+    color: $accent-blue
+    font-size: 24px
+    text-align: center
+    line-height: 1.1
+    margin-bottom: 15px
+  label
+    display: block
+    width: 100%
+  input
+    width: 100%
+    margin-bottom: 20px
+    border: 1px solid #b7b7b7
+    padding: 24px 16px 20px
+    color: #666
+
+//end forms
+
+
+
+
 
 //toggle mnu
 
