@@ -10,6 +10,15 @@ $(function() {
 
     $(".adv-icon").equalHeights();
     $(".adv-desc").equalHeights();
+    $(".alg-icon").equalHeights();
+
+    function windowSize(){
+        if ($(window).width() <= '769'){
+            $(".alg-desc").equalHeights();
+        }
+    }
+
+    $(window).on('load', windowSize);
 
 
 

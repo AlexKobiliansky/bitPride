@@ -1,0 +1,45 @@
+.alg-s-wrap
+  border: 8px dotted $accent-light-blue
+  padding: 20px 0
+
+.alg-wrapper
+  margin-top: 60px
+  .col-sm-3:nth-child(4n)
+    .alg-item
+      &:before
+        display: none
+      &:after
+        display: none
+
+.alg-item
+  text-align: center
+  position: relative
+  &:before
+    content: ''
+    width: 6px
+    height: 6px
+    background-color: #b1b1b1
+    position: absolute
+    border-radius: 50%
+    right: -15px
+    top: 25%
+    box-shadow: -11px 0 0 #b1b1b1, -21px 0 0 #b1b1b1, -31px 0 0 #b1b1b1, 11px 0 0 #b1b1b1, 21px 0 0 #b1b1b1, 31px 0 0 #b1b1b1
+  &:after
+    content: ''
+    position: absolute
+    width: 17px
+    height: 20px
+    background: url("../img/alg-arrow.png") no-repeat center center
+    background-size: contain
+    right: -66px
+    top: calc(25% - 7px)
+
+
+.alg-icon
+  img
+    display: inline-block
+    max-width: 72px
+
+.alg-desc
+  padding: 0 20px
+  margin-top: 15px

@@ -5,6 +5,10 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px)
 
+  .alg-desc
+    padding: 0
+    font-size: 16px
+
   .rise-content
     padding-top: 0
 
@@ -34,6 +38,15 @@
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px)
 
+  .alg-desc
+    padding: 0 10px
+
+  .alg-item
+    &:before
+      box-shadow: -11px 0 0 #b1b1b1, 11px 0 0 #b1b1b1
+    &:after
+      right: -46px
+
   .rise-img
     padding-right: 0
 
@@ -54,6 +67,29 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px)
+
+  .alg-desc
+    padding: 0 10px
+    font-size: 18px
+    margin-top: 5px
+
+  .alg-wrapper
+    .col-sm-3:nth-child(4n)
+      .alg-item
+        margin-bottom: 0
+
+  .alg-item
+    margin-bottom: 65px
+    &:before
+      bottom: -25px
+      top: auto
+      right: calc(50% - 2.5px)
+      box-shadow: 0 -11px 0 #b1b1b1, 0 11px 0 #b1b1b1
+    &:after
+      right: calc(50% - 8.5px)
+      transform: rotate(90deg)
+      bottom: -55px
+      top: auto
 
   .adv-item
     margin-bottom: 30px
@@ -88,6 +124,10 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px)
+
+  .s-proceeds
+    .section-graph
+      margin: 50px 0 15px
 
   .section-title
     line-height: 1.1
